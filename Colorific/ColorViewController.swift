@@ -10,6 +10,9 @@ import UIKit
 
 class ColorViewController: UIViewController {
 
+
+    @IBOutlet weak var colorLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,14 +20,23 @@ class ColorViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        switch self.view.backgroundColor {
+        case UIColor.red:
+            self.colorLabel.text = "Red"
+        case UIColor.blue:
+            self.colorLabel.text = "Blue"
+        case UIColor.yellow:
+            self.colorLabel.text = "Yellow"
+        case UIColor.green:
+            self.colorLabel.text = "Green"
+        case UIColor.cyan:
+            self.colorLabel.text = "Cyan"
+        default:
+            self.colorLabel.text = "Error"
+        }
     }
-    */
+    
+
 
 }

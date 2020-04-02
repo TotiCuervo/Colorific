@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF20D4FB243450D400E35AB9 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF20D4FA243450D400E35AB9 /* ColorViewController.swift */; };
 		CF3EE9E224317F9600240448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EE9E124317F9600240448 /* AppDelegate.swift */; };
 		CF3EE9E424317F9600240448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EE9E324317F9600240448 /* SceneDelegate.swift */; };
 		CF3EE9E624317F9600240448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EE9E524317F9600240448 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF20D4FA243450D400E35AB9 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		CF3EE9DE24317F9600240448 /* Colorific.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorific.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3EE9E124317F9600240448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF3EE9E324317F9600240448 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				CF3EE9EA24317F9A00240448 /* Assets.xcassets */,
 				CF3EE9EC24317F9A00240448 /* LaunchScreen.storyboard */,
 				CF3EE9EF24317F9A00240448 /* Info.plist */,
+				CF20D4FA243450D400E35AB9 /* ColorViewController.swift */,
 			);
 			path = Colorific;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				CF3EE9E624317F9600240448 /* ViewController.swift in Sources */,
 				CF3EE9E224317F9600240448 /* AppDelegate.swift in Sources */,
+				CF20D4FB243450D400E35AB9 /* ColorViewController.swift in Sources */,
 				CF3EE9E424317F9600240448 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
